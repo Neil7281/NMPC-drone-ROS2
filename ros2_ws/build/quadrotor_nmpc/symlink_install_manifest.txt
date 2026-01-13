@@ -1,0 +1,15 @@
+/home/neel/ros2_ws/install/quadrotor_nmpc/share/ament_index/resource_index/package_run_dependencies/quadrotor_nmpc
+/home/neel/ros2_ws/install/quadrotor_nmpc/share/ament_index/resource_index/parent_prefix_path/quadrotor_nmpc
+/home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/environment/ament_prefix_path.sh
+/home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/environment/ament_prefix_path.dsv
+/home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/environment/path.sh
+/home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/environment/path.dsv
+/home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/local_setup.bash
+/home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/local_setup.sh
+/home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/local_setup.zsh
+/home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/local_setup.dsv
+/home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/package.dsv
+/home/neel/ros2_ws/install/quadrotor_nmpc/share/ament_index/resource_index/packages/quadrotor_nmpc
+/home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/cmake/quadrotor_nmpcConfig.cmake
+/home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/cmake/quadrotor_nmpcConfig-version.cmake
+/home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/package.xml
