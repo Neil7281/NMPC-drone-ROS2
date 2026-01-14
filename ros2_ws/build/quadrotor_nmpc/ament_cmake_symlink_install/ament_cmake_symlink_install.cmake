@@ -310,11 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "nmpc_controller_node" "DESTINATION" "lib/quadrotor_nmpc")
+# install("TARGETS" "nmpc_controller_node" "fake_odom_publisher" "DESTINATION" "lib/quadrotor_nmpc")
 include("/home/neel/ros2_ws/build/quadrotor_nmpc/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
-
-# install("TARGETS" "fake_odom_publisher" "DESTINATION" "lib/quadrotor_nmpc")
-include("/home/neel/ros2_ws/build/quadrotor_nmpc/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/neel/ros2_ws/build/quadrotor_nmpc/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/quadrotor_nmpc" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/neel/ros2_ws/src/quadrotor_nmpc" FILES "/home/neel/ros2_ws/build/quadrotor_nmpc/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/quadrotor_nmpc" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
