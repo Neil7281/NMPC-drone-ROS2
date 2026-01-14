@@ -197,6 +197,43 @@ quadrotor_nmpc_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quadrotor_nmpc_uninstall.dir/build.make CMakeFiles/quadrotor_nmpc_uninstall.dir/build
 .PHONY : quadrotor_nmpc_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named nmpc_controller_node
+
+# Build rule for target.
+nmpc_controller_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nmpc_controller_node
+.PHONY : nmpc_controller_node
+
+# fast build rule for target.
+nmpc_controller_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nmpc_controller_node.dir/build.make CMakeFiles/nmpc_controller_node.dir/build
+.PHONY : nmpc_controller_node/fast
+
+src/nmpc_controller_node.o: src/nmpc_controller_node.cpp.o
+.PHONY : src/nmpc_controller_node.o
+
+# target to build an object file
+src/nmpc_controller_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nmpc_controller_node.dir/build.make CMakeFiles/nmpc_controller_node.dir/src/nmpc_controller_node.cpp.o
+.PHONY : src/nmpc_controller_node.cpp.o
+
+src/nmpc_controller_node.i: src/nmpc_controller_node.cpp.i
+.PHONY : src/nmpc_controller_node.i
+
+# target to preprocess a source file
+src/nmpc_controller_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nmpc_controller_node.dir/build.make CMakeFiles/nmpc_controller_node.dir/src/nmpc_controller_node.cpp.i
+.PHONY : src/nmpc_controller_node.cpp.i
+
+src/nmpc_controller_node.s: src/nmpc_controller_node.cpp.s
+.PHONY : src/nmpc_controller_node.s
+
+# target to generate assembly for a file
+src/nmpc_controller_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nmpc_controller_node.dir/build.make CMakeFiles/nmpc_controller_node.dir/src/nmpc_controller_node.cpp.s
+.PHONY : src/nmpc_controller_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... quadrotor_nmpc_uninstall"
 	@echo "... uninstall"
+	@echo "... nmpc_controller_node"
+	@echo "... src/nmpc_controller_node.o"
+	@echo "... src/nmpc_controller_node.i"
+	@echo "... src/nmpc_controller_node.s"
 .PHONY : help
 
 

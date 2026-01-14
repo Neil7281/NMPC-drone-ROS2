@@ -23,4 +23,11 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+add_executable(nmpc_controller_node src/nmpc_controller_node.cpp)
+ament_target_dependencies(nmpc_controller_node rclcpp)
+
+install(TARGETS
+        nmpc_controller_node
+        DESTINATION lib/${PROJECT_NAME}
+        )
 ament_package()

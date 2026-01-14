@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/neel/ros2_ws/build/quadrotor_nmpc
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/nmpc_controller_node.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/quadrotor_nmpc_uninstall.dir/clean
+clean: CMakeFiles/nmpc_controller_node.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -126,6 +127,32 @@ quadrotor_nmpc_uninstall: CMakeFiles/quadrotor_nmpc_uninstall.dir/rule
 CMakeFiles/quadrotor_nmpc_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quadrotor_nmpc_uninstall.dir/build.make CMakeFiles/quadrotor_nmpc_uninstall.dir/clean
 .PHONY : CMakeFiles/quadrotor_nmpc_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/nmpc_controller_node.dir
+
+# All Build rule for target.
+CMakeFiles/nmpc_controller_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nmpc_controller_node.dir/build.make CMakeFiles/nmpc_controller_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nmpc_controller_node.dir/build.make CMakeFiles/nmpc_controller_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/neel/ros2_ws/build/quadrotor_nmpc/CMakeFiles --progress-num=1,2 "Built target nmpc_controller_node"
+.PHONY : CMakeFiles/nmpc_controller_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/nmpc_controller_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neel/ros2_ws/build/quadrotor_nmpc/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/nmpc_controller_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neel/ros2_ws/build/quadrotor_nmpc/CMakeFiles 0
+.PHONY : CMakeFiles/nmpc_controller_node.dir/rule
+
+# Convenience name for target.
+nmpc_controller_node: CMakeFiles/nmpc_controller_node.dir/rule
+.PHONY : nmpc_controller_node
+
+# clean rule for target.
+CMakeFiles/nmpc_controller_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nmpc_controller_node.dir/build.make CMakeFiles/nmpc_controller_node.dir/clean
+.PHONY : CMakeFiles/nmpc_controller_node.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

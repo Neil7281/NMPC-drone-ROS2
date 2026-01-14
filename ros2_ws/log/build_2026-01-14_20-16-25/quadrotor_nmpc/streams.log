@@ -1,0 +1,25 @@
+[0.032s] Invoking command in '/home/neel/ros2_ws/build/quadrotor_nmpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/neel/ros2_ws/build/quadrotor_nmpc -- -j4 -l4
+[0.216s] [ 50%] [32mBuilding CXX object CMakeFiles/nmpc_controller_node.dir/src/nmpc_controller_node.cpp.o[0m
+[3.713s] [100%] [32m[1mLinking CXX executable nmpc_controller_node[0m
+[4.267s] [100%] Built target nmpc_controller_node
+[4.285s] Invoked command in '/home/neel/ros2_ws/build/quadrotor_nmpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/neel/ros2_ws/build/quadrotor_nmpc -- -j4 -l4
+[4.301s] Invoking command in '/home/neel/ros2_ws/build/quadrotor_nmpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/neel/ros2_ws/build/quadrotor_nmpc
+[4.330s] -- Install configuration: ""
+[4.330s] -- Execute custom install script
+[4.331s] -- Symlinking: /home/neel/ros2_ws/install/quadrotor_nmpc/lib/quadrotor_nmpc/nmpc_controller_node
+[4.341s] -- Up-to-date symlink: /home/neel/ros2_ws/install/quadrotor_nmpc/share/ament_index/resource_index/package_run_dependencies/quadrotor_nmpc
+[4.343s] -- Up-to-date symlink: /home/neel/ros2_ws/install/quadrotor_nmpc/share/ament_index/resource_index/parent_prefix_path/quadrotor_nmpc
+[4.343s] -- Up-to-date symlink: /home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/environment/ament_prefix_path.sh
+[4.343s] -- Up-to-date symlink: /home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/environment/ament_prefix_path.dsv
+[4.345s] -- Up-to-date symlink: /home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/environment/path.sh
+[4.345s] -- Up-to-date symlink: /home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/environment/path.dsv
+[4.345s] -- Up-to-date symlink: /home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/local_setup.bash
+[4.346s] -- Up-to-date symlink: /home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/local_setup.sh
+[4.346s] -- Up-to-date symlink: /home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/local_setup.zsh
+[4.346s] -- Up-to-date symlink: /home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/local_setup.dsv
+[4.346s] -- Symlinking: /home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/package.dsv
+[4.363s] -- Up-to-date symlink: /home/neel/ros2_ws/install/quadrotor_nmpc/share/ament_index/resource_index/packages/quadrotor_nmpc
+[4.364s] -- Up-to-date symlink: /home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/cmake/quadrotor_nmpcConfig.cmake
+[4.364s] -- Up-to-date symlink: /home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/cmake/quadrotor_nmpcConfig-version.cmake
+[4.365s] -- Up-to-date symlink: /home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/package.xml
+[4.367s] Invoked command in '/home/neel/ros2_ws/build/quadrotor_nmpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/neel/ros2_ws/build/quadrotor_nmpc
