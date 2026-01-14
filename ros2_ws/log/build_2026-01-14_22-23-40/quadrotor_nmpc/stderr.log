@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/nmpc_controller_node.dir/src/fake_odom_publisher.cpp.o: in function `main':
+fake_odom_publisher.cpp:(.text+0x69): multiple definition of `main'; CMakeFiles/nmpc_controller_node.dir/src/nmpc_controller_node.cpp.o:nmpc_controller_node.cpp:(.text+0x69): first defined here
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/nmpc_controller_node.dir/build.make:201: nmpc_controller_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nmpc_controller_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/home/neel/ros2_ws/src/quadrotor_nmpc/src/nmpc_controller_node.cpp:2:9:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/odometry.hpp: No such file or directory
+    2 | #include[01;31m[K"nav_msgs/msg/odometry.hpp"[m[K
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nmpc_controller_node.dir/build.make:76: CMakeFiles/nmpc_controller_node.dir/src/nmpc_controller_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nmpc_controller_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

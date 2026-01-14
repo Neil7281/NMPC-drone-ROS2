@@ -210,6 +210,43 @@ nmpc_controller_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nmpc_controller_node.dir/build.make CMakeFiles/nmpc_controller_node.dir/build
 .PHONY : nmpc_controller_node/fast
 
+#=============================================================================
+# Target rules for targets named fake_odom_publisher
+
+# Build rule for target.
+fake_odom_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fake_odom_publisher
+.PHONY : fake_odom_publisher
+
+# fast build rule for target.
+fake_odom_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fake_odom_publisher.dir/build.make CMakeFiles/fake_odom_publisher.dir/build
+.PHONY : fake_odom_publisher/fast
+
+src/fake_odom_publisher.o: src/fake_odom_publisher.cpp.o
+.PHONY : src/fake_odom_publisher.o
+
+# target to build an object file
+src/fake_odom_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fake_odom_publisher.dir/build.make CMakeFiles/fake_odom_publisher.dir/src/fake_odom_publisher.cpp.o
+.PHONY : src/fake_odom_publisher.cpp.o
+
+src/fake_odom_publisher.i: src/fake_odom_publisher.cpp.i
+.PHONY : src/fake_odom_publisher.i
+
+# target to preprocess a source file
+src/fake_odom_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fake_odom_publisher.dir/build.make CMakeFiles/fake_odom_publisher.dir/src/fake_odom_publisher.cpp.i
+.PHONY : src/fake_odom_publisher.cpp.i
+
+src/fake_odom_publisher.s: src/fake_odom_publisher.cpp.s
+.PHONY : src/fake_odom_publisher.s
+
+# target to generate assembly for a file
+src/fake_odom_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fake_odom_publisher.dir/build.make CMakeFiles/fake_odom_publisher.dir/src/fake_odom_publisher.cpp.s
+.PHONY : src/fake_odom_publisher.cpp.s
+
 src/nmpc_controller_node.o: src/nmpc_controller_node.cpp.o
 .PHONY : src/nmpc_controller_node.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... quadrotor_nmpc_uninstall"
 	@echo "... uninstall"
+	@echo "... fake_odom_publisher"
 	@echo "... nmpc_controller_node"
+	@echo "... src/fake_odom_publisher.o"
+	@echo "... src/fake_odom_publisher.i"
+	@echo "... src/fake_odom_publisher.s"
 	@echo "... src/nmpc_controller_node.o"
 	@echo "... src/nmpc_controller_node.i"
 	@echo "... src/nmpc_controller_node.s"

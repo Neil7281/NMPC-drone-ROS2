@@ -24,10 +24,15 @@ if(BUILD_TESTING)
 endif()
 
 add_executable(nmpc_controller_node src/nmpc_controller_node.cpp)
-ament_target_dependencies(nmpc_controller_node rclcpp)
-
+add_executable(fake_odom_publisher src/fake_odom_publisher.cpp)
+ament_target_dependencies(nmpc_controller_node rclcpp nav_msgs)
+ament_target_dependencies(fake_odom_publisher rclcpp nav_msgs)
 install(TARGETS
         nmpc_controller_node
+        DESTINATION lib/${PROJECT_NAME}
+        )
+install(TARGETS
+        fake_odom_publisher
         DESTINATION lib/${PROJECT_NAME}
         )
 ament_package()

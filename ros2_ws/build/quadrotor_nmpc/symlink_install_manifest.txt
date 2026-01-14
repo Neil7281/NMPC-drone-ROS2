@@ -1,4 +1,5 @@
 /home/neel/ros2_ws/install/quadrotor_nmpc/lib/quadrotor_nmpc/nmpc_controller_node
+/home/neel/ros2_ws/install/quadrotor_nmpc/lib/quadrotor_nmpc/fake_odom_publisher
 /home/neel/ros2_ws/install/quadrotor_nmpc/share/ament_index/resource_index/package_run_dependencies/quadrotor_nmpc
 /home/neel/ros2_ws/install/quadrotor_nmpc/share/ament_index/resource_index/parent_prefix_path/quadrotor_nmpc
 /home/neel/ros2_ws/install/quadrotor_nmpc/share/quadrotor_nmpc/environment/ament_prefix_path.sh

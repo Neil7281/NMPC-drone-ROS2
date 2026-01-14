@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:29 (ment_target_dependencies):
+  Unknown CMake command "ment_target_dependencies".
+
+[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

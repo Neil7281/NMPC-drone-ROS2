@@ -18,7 +18,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -35,7 +36,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -43,8 +45,15 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "fake_odom_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fake_odom_publisher-4d2677632d880ebbfb72.json",
+					"name" : "fake_odom_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "nmpc_controller_node::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-nmpc_controller_node-8c35b196a87685a2f3b1.json",
+					"jsonFile" : "target-nmpc_controller_node-4b6fcf55bb8f4f4a1cd6.json",
 					"name" : "nmpc_controller_node",
 					"projectIndex" : 0
 				},
