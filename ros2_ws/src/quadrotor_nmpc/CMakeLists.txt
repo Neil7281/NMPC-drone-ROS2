@@ -10,6 +10,11 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(eigen3_cmake_module REQUIRED)
+
+find_package(Eigen3 REQUIRED)
+
+include_directories(${EIGEN3_INCLUDE_DIR})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -25,8 +30,11 @@ endif()
 
 add_executable(nmpc_controller_node src/nmpc_controller_node.cpp)
 add_executable(fake_odom_publisher src/fake_odom_publisher.cpp)
-ament_target_dependencies(nmpc_controller_node rclcpp nav_msgs)
-ament_target_dependencies(fake_odom_publisher rclcpp nav_msgs)
+ament_target_dependencies(nmpc_controller_node rclcpp nav_msgs Eigen3)
+ament_target_dependencies(fake_odom_publisher rclcpp nav_msgs Eigen3)
+
+ament_export_dependencies(eigen3_cmake_module)
+ament_export_dependencies(Eigen3)
 
 install(TARGETS
         nmpc_controller_node
